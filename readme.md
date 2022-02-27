@@ -1,4 +1,4 @@
-## __NAME__
+## __FEATURE_NAME__
 
 __DESCRIPTION__
 
