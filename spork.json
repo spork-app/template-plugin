@@ -3,5 +3,6 @@
     "__DESCRIPTION__": "The package description, explain what this is.",
     "__NAMESPACE__": "Package namespace, note there isn't a trailing \\ [Spork\\TemplatePlugin]",
     "__FEATURE_NAME__": "The name of this feature in lower case [template-plugin]",
-    "__CAPITAL_FEATURE_NAME__": "The name of this feature with a capital first letter [TemplatePlugin]"
+    "__CAPITAL_FEATURE_NAME__": "The name of this feature with a capital first letter [TemplatePlugin]",
+    "__FEATURE_NAME_SLUG__": "THe name of this feature, in slug form."
 }
