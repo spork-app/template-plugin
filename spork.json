@@ -1,7 +1,7 @@
 {
     "__PACKAGE_NAME__": "The name of this package, consumed by a Spork App Instance [ex: spork/template-plugin]",
     "__DESCRIPTION__": "The package description, explain what this is.",
-    "__NAMESPACE__": "Package namespace for use in PHP [Spork\TemplatePlugin]",
+    "__NAMESPACE__": "Package namespace for use in PHP [Spork\\TemplatePlugin]",
     "__NAMESPACE_ESCAPED__": "Package namespace, note there isn't a trailing \\ [Spork\\TemplatePlugin]",
     "__FEATURE_NAME__": "The name of this feature in lower case [template-plugin]",
     "__CAPITAL_FEATURE_NAME__": "The name of this feature with a capital first letter [TemplatePlugin]",
