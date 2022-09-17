@@ -4,10 +4,40 @@
     "type": "library",
     "license": "MIT",
     "authors": [],
-    "require": {},
+    "require": {
+        "php": ">=8.0",
+        "spork/core": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^7.0",
+        "laravel/pint": "^1.0"
+    },
     "autoload": {
         "psr-4": {
-            "__NAMESPACE_ESCAPED__\\": "src/"
+            "__NAMESPACE_ESCAPED__\\": "src",
+            "__NAMESPACE_ESCAPED__\\Database\\Factories\\": "database/factories"
         }
-    }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "__NAMESPACE_ESCAPED__\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "__NAMESPACE_ESCAPED__\\SporkServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
